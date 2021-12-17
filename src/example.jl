@@ -1,9 +1,9 @@
 module example
 
-using Dates
+import Dates
 
 fun() = println("This is the example package!")
 
-funtime() = println(now())
+funtime() = println(Dates.now())
 
 end
