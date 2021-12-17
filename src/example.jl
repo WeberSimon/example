@@ -1,6 +1,6 @@
 module example
 
-import Dates
+using Dates
 
 fun() = println("This is the example package!")
 
